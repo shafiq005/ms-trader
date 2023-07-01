@@ -49,11 +49,18 @@ h2{
   font-size: 25px;
 }
 .container{
-  padding: 20px
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .row{
   display: flex;
   flex-wrap: wrap;
+}
+.col{
+  margin: auto;
+  padding: 30px;
 }
 .col p{
   font-size: 30px;
@@ -72,8 +79,8 @@ h2{
   text-align: center;
 }
 .col1{
-  width: clamp(200px, 100% , 250px);
-  /* flex-grow: 1; */
+  width: clamp(200px, 40%, 350px);
+  margin: auto;
   padding: 10px;
 }
 .col1 img{
